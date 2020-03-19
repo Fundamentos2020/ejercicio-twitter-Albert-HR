@@ -130,3 +130,43 @@ body { margin: 0; }
 
 [class*="col-"] { float: left; }
 [class*="flex-"] { display: flex; }
+
+.textarea {
+    border: 2px solid gray;
+}
+
+.btadd {
+    font-size: medium;
+    float: right;   
+    padding: 0.5em;
+    border: solid brown 1px;
+    color: brown;
+}
+
+
+/*Tweet*/
+
+.box {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.x {
+    background-color: white;
+    font-size: medium;
+    margin: 0.7em;
+    border: solid 1px brown;
+    text-align: center;
+    color: purple;
+}
+
+.pie {
+    position: absolute;
+    bottom: 0em;
+    height: 50px;
+    color: white;   
+    background-color: brown;
+    font-weight: bold;
+    padding-top: 1em;
+    text-align: center;
+}

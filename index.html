@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Twitter</title>
 </head>
+
 <body>
     <div>
-        <h1>Local Storage</h1>
-        <div>
-            <div>
-                <form action="#">
-                    <label for="tweet">Tweet:</label>
-                    <textarea name="tweet"></textarea>
-                    <button>Agregar</button>
-                </form>
-            </div>
-            <div>
-                <h2>Mis Tweets</h2>
-                <div>
-                    hola
+        <h1 class="flex-all-center">Local Storage</h1>
+    </div>
+
+    <div class="row">
+
+        <div class="col-m-6 col-s-12 container">
+            <form action="#">
+                <label for="tweet">Tweet:</label>
+                <br>
+                <textarea class="w-100 textarea" rows="5" name="tweet"></textarea>
+                <br>
+                <button class="btadd">Agregar</button>
+            </form>
+        </div>
+
+
+
+        <div class="col-m-6 col-s-12 container">
+            <h2 class="flex-all-center">Mis Tweets</h2>
+            
+            <div class="row bt box">
+
+                <div class="col-m-2 col-s-2">
+                    <img class="img-fluid" src="https://picsum.photos/id/1/80/80" alt="">
                 </div>
+                <div style="padding-left: 0.5em;" class="col-m-9 col-s-9">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi exercitationem, esse ipsam ea culpa
+                    at omnis eum atque dolores consectetur assumenda delectus tempore repellendus odio reprehenderit
+                    quidem modi sunt? Illum?
+                </div>
+                <div class="col-m-1 col-s-1">
+                    <button class="x" >x</div>
+                </div>
+
+            </div>
+
+
+        
+            
+        </div>
+
+        <div class="row">
+            <div class="col-m-12 col-s-12 pie" >
+                277898 - Herrera Rodriguez Carlos Alberto 
             </div>
         </div>
+
     </div>
+
 
     <script src="app.js"></script>
 </body>
+
 </html>
