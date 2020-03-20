@@ -161,7 +161,7 @@ body { margin: 0; }
 }
 
 .pie {
-    position: absolute;
+    position: fixed;
     bottom: 0em;
     height: 50px;
     color: white;   
